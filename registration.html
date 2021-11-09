@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="login.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <h1>Register</h1>
+            <form name="registerForm" action="registerWelcome.php" onsubmit="return validateRegisterForm()" method="post">
+                <div class="textfields">
+                    <label>Userame</label>
+                    <input type="text" name="username">
+                </div>
+                <div class="textfields">
+                    <label>Email</label>
+                    <input type="text" name="email">
+                </div>
+                <div class="textfields">
+                    <label>Password</label>
+                    <input type="password" name="password">
+                </div>
+                <div class="textfields">
+                    <label>Confirm Password</label>
+                    <input type="password" name="confirmPassword">
+                </div>
+                <div class="button_submit">
+                    <input type="submit" value="Sign Up">
+                </div>
+                <div class="footer">
+                    Already a member?   <a href="login.html">Log in</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

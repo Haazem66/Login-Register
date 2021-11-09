@@ -1,0 +1,35 @@
+
+
+<html>
+
+  <head>
+      <title>Homepage</title>
+      <link rel="stylesheet" href="style.css">
+      <script type="text/javascript" src="login.js"></script>
+  </head>
+  
+  <body>
+      <div class="main">
+          <div class="container">
+              <h1>Login</h1>
+              <form name="loginForm" action="loginWelcome.php" onsubmit="return validateForm()" method="post">
+                  <div class="textfields">
+                      <label>Email</label>
+                      <input type="text" name="loginEmail">
+                  </div>
+                  <div class="textfields">
+                      <label>Password</label>
+                      <input type="password" name="loginPassword">
+                  </div>
+                  <div class="button_submit">
+                      <input type="submit" value="Log in">
+                  </div>
+                  <div class="footer">
+                      Not a member?   <a href="registration.html">Register</a>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </body>
+  
+  </html>
